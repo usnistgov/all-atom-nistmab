@@ -2,22 +2,22 @@
 
 1. Software or Data description
    - This repository contains scripts and data used for running and analyzing atomistic molecular dynamics simulations of NISTmAb, NIST Monoclonal Antibody Reference Material 8671. Specifically, it provides the much of the necessary information to recapitulate the findings in the manuscript "Quantifying IgG1 antibody hinge motions and salt-dependent inter-domain interactions via MD simulations and neutron scattering methods". Any further data and information, such as full trajectories, can be disseminated upon request, but will require some coordination due to file sizes. 
-   #- Statements of purpose and maturity
-   #- Description of the repository contents
-   #- Technical installation instructions, including operating
-     system or software dependencies
+   <!--- Statements of purpose and maturity
+   - Description of the repository contents
+   - Technical installation instructions, including operating
+     system or software dependencies-->
 1. Contact information
    - Shayna Hilburg, MML, Material Data Division: Theory, Modeling and Simulation Group shayna.hilburg@nist.gov
    - Christina Bergonzo, MML, Material Data Division: Theory, Modeling and Simulation Group christina.bergonzo@nist.gov
-   #- PI name, NIST OU, Division, and Group names
-   #- Contact email address at NIST
-   #- Details of mailing lists, chatrooms, and discussion forums,
-     where applicable
+   <!-- - PI name, NIST OU, Division, and Group names
+   - Contact email address at NIST
+   - Details of mailing lists, chatrooms, and discussion forums,
+     where applicable-->
 1. Related Material
    - https://www.nist.gov/programs-projects/flexible-protein-simulations-monoclonal-antibodies-enable-biotherapeutic
-   #- URL for associated project on the NIST website or other Department
+   <!-- - URL for associated project on the NIST website or other Department
      of Commerce page, if available
-   #- References to user guides if stored outside of GitHub
+   - References to user guides if stored outside of GitHub -->
 1. "Quantifying IgG1 antibody hinge motions and salt-dependent inter-domain interactions via MD simulations and neutron scattering methods" S.L. Hilburg*, C.E.R. Edwards, A. Martel, L. Porcar, E.G. Kelley, Y. Liu, and C. Bergonzo*. In preparation 2026
 2. Additional software and modules
    - AmberMD simulation package https://ambermd.org
