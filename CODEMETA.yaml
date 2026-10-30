@@ -30,23 +30,23 @@
 ---
 categories:
   # - ai-ml
-  # - performance-and-workflow
-  - scientific-software
-  # - simulation
+   - performance-and-workflow
+  # - scientific-software
+   - simulation
   # - tools
   # - visualization
 
 themes:
-  - Information Technology
-    - Data and informatics
+  #- Information Technology
+  #  - Data and informatics
   # - Advanced communications
   #     - Optical communications
   #     - Quantum communications
   #     - Wireless (RF)
   #
-  # - Bioscience
+   - Bioscience
   #     - Biomaterials
-  #     - Biomolecular characterization
+       - Biomolecular characterization
   #     - Bioprocessing
   #     - Cell biology
   #     - Engineering or synthetic biology
@@ -68,12 +68,12 @@ themes:
   #     - Structural engineering
   #     - Sustainable buildings
   #
-  # - Chemistry
+   - Chemistry
   #     - Analytical chemistry
   #     - Chemical engineering and processing
   #     - Chemical thermodynamics and chemical properties
   #     - Molecular characterization
-  #     - Theoretical chemistry and modeling
+       - Theoretical chemistry and modeling
   #     - Thermochemical properties
   #
   # - Electronics
@@ -177,7 +177,7 @@ themes:
   #
   # - Manufacturing
   #     - Additive manufacturing
-  #     - Biomanufacturing
+       - Biomanufacturing
   #     - Factory communications
   #     - Factory operations planning and control
   #     - Interoperability in manufacturing
@@ -212,7 +212,7 @@ themes:
   #         - Mechanical properties
   #         - Thermal properties
   #     - Metals
-  #     - Modeling and computational material science
+       - Modeling and computational material science
   #     - Polymers
   #     - Superconductors
   #
@@ -258,7 +258,7 @@ themes:
   #     - Nanophysics
   #     - Nanoplasmonics
   #
-  # - Neutron research
+   - Neutron research
   #
   # - Performance excellence
   #     - Assessment tools and services
