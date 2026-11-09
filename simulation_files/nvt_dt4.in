@@ -1,0 +1,30 @@
+Volume Equilibration MD - constant pressure
+ &cntrl
+  imin  = 0,
+  irest    = 1, ! use rst file to start
+  ntx      = 5, ! read coords and vels
+
+  ntb      = 1, ! pbc (1=nvt, 2=npt)
+  cut      = 10.0,
+
+  ntr      = 0, ! no restraints
+
+  ntc      = 2, ! shake
+  ntf      = 2, ! force eval - related to shake
+
+  tempi    = 298.0, ! thermostat stuff
+  temp0    = 298.0,
+  ntt      = 3,
+  gamma_ln = 1.0,
+  ig       = -1,
+
+  ntp      = 0, ! no pressure scaling
+
+  iwrap    = 1,
+  nstlim   = 125000000, ! # of steps (500 ns)
+  dt       = 0.004,   ! ps
+
+  ntpr = 25000, !write every 25000 x 0.004 = 100 ps
+  ntwx = 25000,
+  ntwr = 25000
+ /
