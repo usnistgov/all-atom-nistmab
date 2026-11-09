@@ -3,7 +3,7 @@
 1. Software or Data description
    - This repository contains scripts and data used for running and analyzing atomistic molecular dynamics simulations of NISTmAb, NIST Monoclonal Antibody Reference Material 8671. Specifically, it provides the much of the necessary information to recapitulate the findings in the manuscript "Quantifying IgG1 antibody hinge motions and salt-dependent inter-domain interactions via MD simulations and neutron scattering methods". Any further data and information, such as full trajectories, can be disseminated upon request, but will require some coordination due to file sizes.
    - File descriptions:
-      - "simulation_files.zip" includes parameter files and starting configuration files for the 8 trajectories in the manuscript. It also includes the input file for production NVT simulations. All formatted for use with AmberMD.
+      - "simulation_files" includes zipped parameter files and starting configuration files for the 8 trajectories in the manuscript. It also includes the input file for production NVT simulations. All formatted for use with AmberMD.
       - "unwrrap_traj" includes scripts for unwrapping the AmberMD trajectories, which are then used in many of the subsequent analyses.
       - "rG" includes the calculation script used for calculating the radius of gyration over time
       - "bestfitRMSD_firstframe_ref" includs the script for calculating the best-fit root-mean-square deviations for a trajectory using the first frame as reference structure.
