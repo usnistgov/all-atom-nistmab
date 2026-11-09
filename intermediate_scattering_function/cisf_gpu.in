@@ -1,0 +1,20 @@
+-function=AngularAveragedCollectiveIntermediateScatteringFunction
+-calculation_type=atomic
+-trajectory_file_path=../DIRECTORYNAME/PREFIX.xtc
+-gro_file_path=../DIRECTORYNAME/PREFIX.gro
+-output_file_path=cisf_SUFFIX.out
+-use_gpu=True
+
+-start_frame=STARTFRAME
+-end_frame=ENDFRAME
+-frame_interval=FRAMEINT
+-dimension=3
+-number_of_frames_to_average=FRAMEAVG
+
+-time_scale_type=TIMESCALE
+-trajectory_delta_time=TRAJDT
+-time_interval=TIMEINT
+-number_of_time_points=NUMTIME
+
+-atom_name_1=C C1 C2 C2N C3 C4 C5 C6 CA CB CD CD1 CD2 CE CE1 CE2 CE3 CG CG1 CG2 CH2 CME CZ CZ2 CZ3 N N2 ND1 ND2 NE NE1 NE2 NH1 NH2 NZ O O2 O2N O3 O4 O5 O6 OD1 OD2 OE1 OE2 OG OG1 OH OXT SD SG
+-k_values=0.1 0.2 0.3 0.4 0.45 0.5 0.55 0.6 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.6 1.9 2.3 3
