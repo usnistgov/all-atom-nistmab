@@ -1,7 +1,19 @@
 ## README
 
 1. Software or Data description
-   - This repository contains scripts and data used for running and analyzing atomistic molecular dynamics simulations of NISTmAb, NIST Monoclonal Antibody Reference Material 8671. Specifically, it provides the much of the necessary information to recapitulate the findings in the manuscript "Quantifying IgG1 antibody hinge motions and salt-dependent inter-domain interactions via MD simulations and neutron scattering methods". Any further data and information, such as full trajectories, can be disseminated upon request, but will require some coordination due to file sizes. 
+   - This repository contains scripts and data used for running and analyzing atomistic molecular dynamics simulations of NISTmAb, NIST Monoclonal Antibody Reference Material 8671. Specifically, it provides the much of the necessary information to recapitulate the findings in the manuscript "Quantifying IgG1 antibody hinge motions and salt-dependent inter-domain interactions via MD simulations and neutron scattering methods". Any further data and information, such as full trajectories, can be disseminated upon request, but will require some coordination due to file sizes.
+   - File descriptions:
+      - "simulation_files.zip" includes parameter files and starting configuration files for the 8 trajectories in the manuscript. It also includes the input file for production NVT simulations. All formatted for use with AmberMD.
+      - "unwrrap_traj" includes scripts for unwrapping the AmberMD trajectories, which are then used in many of the subsequent analyses.
+      - "rG" includes the calculation script used for calculating the radius of gyration over time
+      - "bestfitRMSD_firstframe_ref" includs the script for calculating the best-fit root-mean-square deviations for a trajectory using the first frame as reference structure.
+      - "clustering" provides information regarding the pairwise RMSD-based k-means clustering. This includes scripts used for doing an initial downselected k-means clustering and resulting metric comparisons as well as the final resolution k-means clustering and resulting metric comparisons. 
+      - "representative_structure_pdbs.zip" includes PDB structure files for the representative structures identified in the aforementioned pairwise RMSD-based k-means clustering. 
+      - "sans.zip" includes information for simulated and experimental small-angle neutron scattering. The experimental data is included. Simulated data are calculated from aforementioned representative structure PDBS using SASView's Generic Scattering Calculator. Python scripts showing how to calculate Guinier radii from the data are included.
+      - "MSD_diffusion" includes scripts for calculating the mean square displacement (MSD) and getting diffusion coefficients from that data.
+      - "populationBasedFreeEnergy_Rg_vs_RMSD.zip" includes scripts for calculating the root-mean-square deviations using starting structure as reference, calculating the radii of gyration, and calculating relative free energies from these datasets are included. The reference structure and the calculations for aforementioned representative structures are also included.
+      - "Vmsd" includes scripts for calculating mean square displacement for use in the Vmsd parameter as well as calculating the Vmsd parameter.
+      - "intermediate_scattering_function" includes a series of inputs and scripts for using LiquidLib to calculate the intermediate scattering function (ISF), average the results over time, and fit effective diffusion coefficients for our trajectories.
    <!--- Statements of purpose and maturity
    - Description of the repository contents
    - Technical installation instructions, including operating
